@@ -10,7 +10,7 @@ Parse 上的数据储存建立在 `%{ParseObject}` 的基础上。每个 `%{Pars
 score: 1337, playerName: "Sean Plott", cheatMode: false
 ```
 
-键值必须是字母数字字符串。键值可以是字符串、数字、布尔值或设置是数组和字典 － 只要是能用 JSON 编码的任何内容。
+键名必须是字母数字字符串。键值可以是字符串、数字、布尔值或设置是数组和字典 － 只要是能用 JSON 编码的任何内容。
 
 每个 `%{ParseObject}` 均有可供您用以区分不同数据种类的类名。例如，您可以把高分对象称为 `GameScore`。我们建议您这样命名类名（如：NameYourClassesLikeThis）和键值（如：nameYourKeysLikeThis），让您的代码看起来整齐美观。
 
